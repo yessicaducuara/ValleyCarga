@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Valley Cargo - Gerente</title>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </h:head>
+    <h:body>
+        <div class="navbar-fixed">
+            <nav class="light-blue lighten-1" role="navigation">
+                <div class="nav-wrapper container"><a class="waves-effect waves-light" href="index.xhtml"><font face="arial" size="6">Valley Cargo</font></a>
+                    <ul class="right hide-on-med-and-down">
+                         <li><a class="waves-effect waves-light" href="Guia.xhtml"><font face="Arial" size="3"><b>Guia</b></font></a></li>
+                         <li><a class="waves-effect waves-light" href="Envios.xhtml"><font face="Arial" size="3"><b>Envios</b></font></a></li>
+                        <li><a class="waves-effect waves-light" href="MisDatos.xhtml"><font face="Arial" size="3"><b>Mis Datos</b></font></a></li>
+                        <li><a class="waves-effect waves-light" href="Rutas.xhtml"><font face="Arial" size="3"><b>Rutas</b></font></a></li>
+                        <li><a class="waves-effect waves-light" href="Tarifas.xhtml"><font face="Arial" size="3"><b>Tarifas</b></font></a></li>
+                        <li><a class="waves-effect waves-light"  href="Contactenos.xhtml"><font face="Arial" size="3"><b>Contactenos</b></font></a></li>
+                        <li><a class="waves-effect waves-light" href="../index.xhtml"><font face="Arial" size="3"><b>Cerrar Sesion</b></font></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div> 
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <div class=" col s6 m12">
+                    <br/>
+                    <center>
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="../img/cargo.png" width="10%" height="10%"/>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Bienvenido Rol Comercial<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">Plataforma en Modo Offline</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Comercial<i class="material-icons right">close</i></span>
+                                <center><h5><p>Si deseas conocer las funciones del departamento comercial en nuestra empresa debes tener en claro el concepto del Markething ya que es comun que lo encontremos relacionado con el area comercial de la organizacion o con este departamento </p></h5></center>
+                               
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div id="modal1" class="modal">
+            <div class="col l3 s12">
+                <br/>
+                <font class="orange-text" face="Century Gothic" size="6"><center><b>Mis Datos</b></center></font>  
+                <center><p>Para Cambiar algun dato solo reescribalo; Seguido haga click en cambiar.</p></center>
+                <br/>
+                <div class="row">
+                    <!--Cambiar los Campos y Validaciones a las Requeridas en el Formulario-->
+                    <form class="col s12">
+                        <div class="input-field col s6">
+                            <input id="icon_prefix" type="text" class="validate"/>
+                            <label class="blue-text" for="icon_prefix"><center>Numero de Documento</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="icon_prefix" type="text" class="validate"/>
+                            <label class="blue-text" for="icon_prefix"><center>Tipo de Documento</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="email" type="email" class="validate"/>
+                            <label class="blue-text" for="email" data-error="wrong" data-success="right"><center>Nombre</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="icon_prefix" type="text" class="validate"/>
+                            <label class="blue-text" for="icon_prefix"> <center>Apellido</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="icon_prefix" type="text" class="validate"/>
+                            <label class="blue-text" for="icon_prefix"><center>Fecha de Nacimiento</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="icon_prefix" type="text" class="validate"/>
+                            <label class="blue-text" for="icon_prefix"><center>Sexo</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="icon_prefix" type="text" class="validate"/>
+                            <label class="blue-text" for="icon_prefix"><center>Telefono Fijo</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="icon_prefix" type="text" class="validate"/>
+                            <label class="blue-text" for="icon_prefix"><center>Telefono Celular</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="email" type="email" class="validate"/>
+                            <label class="blue-text" for="email" data-error="wrong" data-success="right"><center>Correo Electronico</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="icon_prefix" type="text" class="validate"/>
+                            <label class="blue-text" for="icon_prefix"> <center>Direcciòn</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="icon_prefix" type="text" class="validate"/>
+                            <label class="blue-text" for="icon_prefix"><center>Clave</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="icon_prefix" type="text" class="validate"/>
+                            <label class="blue-text" for="icon_prefix"><center>Confirmar Clave</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="icon_prefix" type="text" class="validate"/>
+                            <label class="blue-text" for="icon_prefix"><center>Ciudad</center></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <center><button class="btn waves-effect waves-light" type="submit" name="action">Cambiar
+                                    <i class="material-icons right">send</i></button>
+                                <button href="#!" class=" btn waves-effect waves-light modal-action modal-close">Cancelar
+                                </button></center>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div id="modal3" class="modal">
+                <div class="col l3 s12">
+                    <br/>
+                    <font class="orange-text" face="Century Gothic" size="6"><center><b>CONTACTENOS</b></center></font>  
+                    <br/>
+                    <div class="row">
+                        <!--Cambiar los Campos y Validaciones a las Requeridas en el Formulario-->
+                        <form class="col s12">
+                            <div class="input-field col s6">
+                                <input id="icon_prefix" type="text" class="validate"/>
+                                <label class="blue-text" for="icon_prefix"><center>Nombre</center></label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="icon_prefix" type="text" class="validate"/>
+                                <label class="blue-text" for="icon_prefix"><center>Correo Electronico</center></label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="email" type="email" class="validate"/>
+                                <label class="blue-text" for="email" data-error="wrong" data-success="right"><center>Empresa</center></label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="icon_prefix" type="text" class="validate"/>
+                                <label class="blue-text" for="icon_prefix"> <center>Telefono Celular</center></label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="icon_prefix" type="text" class="validate"/>
+                                <label class="blue-text" for="icon_prefix"><center>Telefono Oficina</center></label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="icon_prefix" type="text" class="validate"/>
+                                <label class="blue-text" for="icon_prefix"><center>Mensaje</center></label>
+                            </div>
+                            <center><button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                                    <i class="material-icons right">send</i></button>
+                                <button href="#!" class=" btn waves-effect waves-light modal-action modal-close">Cancelar
+                                </button>
+                            </center>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        
+    </h:body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script>
+        $('.modal-trigger').leanModal({
+            dismissible: true,
+            opacity: .5,
+            in_duration: 300,
+            out_duration: 200,
+            ready: function () {
+            },
+            complete: function () {
+            }
+        }
+        );
+    </script>
+</html>
